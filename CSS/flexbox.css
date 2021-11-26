@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.blogs{
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.blog{
+    padding: 20px;
+    margin: 20px;
+}
+.blog1{
+    background-color: #2ecc71;
+    flex: 1;
+}
+.blog2{
+    background-color: #f1c40f;
+    flex: 2;
+}
+.blog3{
+    background-color: #3498db;
+    flex:1;
+}
+@media(max-width:760px){
+    .blogs{
+        flex-direction: column;
+    }
+}
